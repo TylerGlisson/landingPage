@@ -12,33 +12,37 @@
   <title>Landing Page</title>
 </head>
 <body>
+  <header id="header">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">TG</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav"
+          <li class="nav-item">
+            <a class="nav-link" href="#">Who</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">What</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+          </li>    
+        </ul>
+      </div>  
+      <div class="contactDiv collapse navbar-collapse justify-content-end bg-primary" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div> 
+    </nav>
+    <br>
+  </header>
   <div class="container-fluid"> 
-    <header id="header">
-      <!---Navbar-->
-      <nav id="nav-bar" class="navbar navbar-expand-sm navbar-dark">
-        <!---Logo for TG Designs?-->
-        <a href="#" class="nav-brand">TGdev</a>
-        <!---Colapsible button for navbar-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-----Navbar links-->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav justify-content-end">
-            <li class="nav-item">
-              <a href="#" class="nav-link">link 1</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">link 2</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">link 3</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <div><h1>Welcome to the site</h1></div>
+    <div><h1>Tyler Glisson </h1><h2>Welcome to the site</h2></div>
     <p>This is a string of test</p>
     <div>       
       <iframe id="video" width="280" height="157" src="https://www.youtube.com/embed/IukTiqAqVBM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -47,11 +51,11 @@
       <input type="email" id="email" placeholder="email">
       <input type="submit" id="submit" action="https://www.freecodecamp.com/email-submit">
     </form>
+    </div>
+    <!----Boostrap jquery, popper, JS scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </div>
-  <span class="glyphicon glyphicon-tag"></span>
-  <!----Boostrap jquery, popper, JS scripts-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -15,4 +15,11 @@ body {
 .nav-link, .nav-brand {
   color: white;
 }
+h1 {
+  font-weight: bold;
+}
 
+.contactDiv {
+  margin: 0 auto;
+  width: 10px;
+}
