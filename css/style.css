@@ -6,20 +6,34 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+ 
 }
-.flex-container {
-  display: flex;
-  flex-direction: row;
-}
-.nav-link, .nav-brand {
-  color: white;
-}
+
 h1 {
   font-weight: bold;
 }
-
-.contactDiv {
-  margin: 0 auto;
-  width: 10px;
+.nav-link, .nav-brand {
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+.flexy {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.class1 {
+  display: flex;
+  flex: 2;
+}
+.class2 {
+  display: flex;
+  flex: 2;
+  justify-content:space-evenly;
+}
+.class3 {
+  display: flex;
+  flex:2;
+  flex-direction: row;
+  justify-content: flex-end;
 }
