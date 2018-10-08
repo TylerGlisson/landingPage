@@ -8,32 +8,77 @@ body {
   -moz-osx-font-smoothing: grayscale;
  
 }
-
-h1 {
-  font-weight: bold;
-}
 .nav-link, .nav-brand {
   display:flex;
   justify-content: center;
   width:100%;
 }
-.flexy {
+.brandDiv {
+  display: flex;
+  flex-grow: 1;
+}
+.hamburger {
+  
+}
+.linksDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 2;
+}
+.mainLinks {
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
 }
-.class1 {
+.contactDiv {
   display: flex;
-  flex: 2;
-}
-.class2 {
-  display: flex;
-  flex: 2;
-  justify-content:space-evenly;
-}
-.class3 {
-  display: flex;
-  flex:2;
-  flex-direction: row;
   justify-content: flex-end;
+  flex-grown: 1;
+}
+.contactLink {
+  display: flex;
+}
+.navbar-collapse {
+  flex-direction: column;
+}
+.navbar-nav {
+  flex-direction: column;
+}
+@media (max-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+  }
+}
+.modal-dialog {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+.modalBody {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.modalUl {
+  padding: 0;
+}
+.modalLi {
+  display: flex;
+  justify-content: center;
+}
+.modalLinks {
+  font-family: Open Sans, Segoe UI, sans-serif; 
+  letter-spacing: .1em;
+  font-size: 16px;
+  color: black;
+}
+.closeModal {
+  margin: 20px 30px 0 0;
 }
