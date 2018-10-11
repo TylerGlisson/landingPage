@@ -1,0 +1,77 @@
+/*implement media query to create responsive navbar*/
+body {
+  margin: 0;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+li a {
+  display: block;
+  color: #000;
+  font-size: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+code {
+  background: lightgray;
+}
+section>header {
+  font-size: 25px;
+  margin-top: 20px;
+}
+#main-doc {
+  display: flex;
+}
+.leftNavbarContainer {
+  flex: 1;
+  border-right-style: solid;
+  border-width: 3px;
+  border-color: lightgrey;
+  padding-left: 0px;
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  overflow: auto;
+}
+header.customNavLink {
+  font-size: 30px;
+  text-align: center;
+}
+.linkArea {
+  border-style: solid;
+  border-bottom-style: solid;
+  border-width: 3px;
+  border-color: #eceaea;
+  padding: 10px;
+}
+.customNavLink {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.contentArea {
+  flex: 3;
+  padding-left: 30px;
+  margin-left: 25%;
+}
+.sectionDiv {
+  padding: 10px;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+
