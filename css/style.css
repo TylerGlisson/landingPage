@@ -104,3 +104,8 @@ body {
   flex-direction: column;
   justify-items: center;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+}
